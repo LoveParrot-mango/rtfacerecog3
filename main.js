@@ -21,7 +21,7 @@ function gotResult(error, results) {
         console.error(error);
     } else {
         console.log(results);
-        document.getElementById("result_obname").innerHTML = results[0].label;
-        document.getElementById("result_obacc").innerHTML = results[0].confidence.toFixed(3);
+        document.getElementById("result_mnname").innerHTML = results[0].label;
+        document.getElementById("result_acc").innerHTML = results[0].confidence.toFixed(3);
     }
 }
